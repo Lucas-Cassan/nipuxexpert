@@ -1,0 +1,35 @@
+{
+  "name": "nipuxexpert",
+  "version": "1.0.0",
+  "description": "Project for NIP UX EXPERT",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "watch": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lucas-Cassan/nipuxexpert.git"
+  },
+  "author": "Lucas Cassan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Lucas-Cassan/nipuxexpert/issues"
+  },
+  "homepage": "https://github.com/Lucas-Cassan/nipuxexpert#readme",
+  "keywords": [
+    "nodejs",
+    "express"
+  ],
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongoose": "^6.3.4",
+    "validator": "^13.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  },
+  "module": "module"
+}
