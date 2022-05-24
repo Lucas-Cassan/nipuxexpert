@@ -1,4 +1,6 @@
-## 📎 Exercice NIP UX EXPERT - Créer un projet Front & Back.
+## 📎 Exercice - Créer un projet Front & Back.
+
+[![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://fr.wikipedia.org/wiki/JavaScript)  [![forthebadge](https://forthebadge.com/images/badges/fixed-bugs.svg)]() [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
 
 ---
 
@@ -22,8 +24,8 @@ Dans votre terminal backend, executez `npm start`.
 
 |  Languages   |     Technologie       |           Outils           |
 | :----------: | :--------:   | :------------------------: |
-|  Javascript  |  Node.js & Express     | Visual Studio Code |
-|     CSS.     |  Svelte-kit  |                    Git/GitHub        |
-|     SCSS     |  NoSQL  |                    MongoDB        |
+|  Javascript  |  Node.js + Express     | Visual Studio Code |
+|     CSS/SASS     |  Svelte-kit  |                    Git/GitHub        |
+|          |  NoSQL  |                    MongoDB        |
 
 ---
