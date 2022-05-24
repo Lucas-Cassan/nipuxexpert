@@ -1,10 +1,10 @@
-## 📎 Exercice - Créer un projet Front & Back.
+## **Exercice - Créer un projet Front & Back.**
 
 [![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://fr.wikipedia.org/wiki/JavaScript) [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
 
 ---
 
-## 🔨 Installation
+## **Installation**
 
 Les fichiers du back-end du serveur pour le projet sont présents dans ce répo.
 
@@ -20,12 +20,11 @@ Dans votre terminal backend, executez `npm start`.
 
 ---
 
-##### Langages, technologies et outils utilisés
+## **Langages, technologies et outils utilisés**
 
-|  Languages   |     Technologie       |           Outils           |
+|  **Languages**   |     **Technologies**       |           **Outils**           |
 | :----------: | :--------:   | :------------------------: |
-|  Javascript  |  Node.js + Express     | Visual Studio Code |
-|     CSS/SASS     |  Svelte-kit  |                    Git/GitHub        |
-|          |  NoSQL  |                    MongoDB        |
+|  Javascript  |  Node.js     | Visual Studio Code |
+|     CSS/SASS     |  Express  |                    Git/GitHub        |
+|     NoSQL     |  Svelte-kit  |                    MongoDB        |
 
----
