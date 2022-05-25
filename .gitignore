@@ -1,0 +1,16 @@
+**/node_modules
+
+#BACKEND
+backend/node_modules
+
+#FRONTEND
+frontend/.DS_Store
+frontend/node_modules
+frontend/build
+frontend/.svelte-kit
+frontend/package
+frontend/.env
+frontend/.env.*
+frontend/!.env.example
+frontend/.vercel
+frontend/.output
