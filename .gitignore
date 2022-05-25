@@ -1,5 +1,7 @@
 **/node_modules
-
+.gitignore
+./.gitignore
+*.gitignore
 frontend/.DS_Store
 frontend/node_modules
 frontend/build

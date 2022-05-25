@@ -7,7 +7,7 @@
 
 ## **Installation**
 
-*Les fichiers du back-end du serveur pour le projet sont présents dans ce répo.*
+*Les fichiers du back-end (.env comprit) sont présents dans ce répo.*
 
 * Vous aurez besoin d'avoir `Node` et `npm` installés localement sur votre machine.
 
