@@ -4,7 +4,7 @@
 #BACKEND
 backend/node_modules
 backend/.DS_Store
-backend/config/.env
+#backend/config/.env
 
 #FRONTEND
 frontend/.DS_Store
