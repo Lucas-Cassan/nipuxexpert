@@ -1,7 +1,9 @@
 **/node_modules
+**/.DS_Store
 
 #BACKEND
 backend/node_modules
+backend/.DS_Store
 
 #FRONTEND
 frontend/.DS_Store
