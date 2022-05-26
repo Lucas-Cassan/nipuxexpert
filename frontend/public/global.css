@@ -77,3 +77,55 @@ body {
 	color: #a8acbf;
 	font-size: 1.2em;
 }
+
+/*	FORM	*/
+
+
+
+
+.contentForm {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.contentForm .btn {
+	width: 100%;
+	margin-top: 40px;
+}
+
+.contentForm .input {
+	margin-top: 40px;
+	width: 96%;
+	position: relative;
+
+}
+
+.contentForm .input label {
+	top: -25px;
+	font-size: 1em;
+	position: absolute;
+	font-weight: 600;
+	color: #a8acbf;
+}
+
+.contentForm .input input {
+	font-size: 1em;
+	width: 96%;
+	padding: 10px 2%;
+	height: 100%;
+	border: 0;
+	border-radius: 5px;
+	outline: none;
+}
+
+.contentForm .input select {
+	font-size: 1em;
+	width: 100%;
+	padding: 10px 2%;
+	height: 100%;
+	border: 0;
+	border-radius: 5px;
+	outline: none;
+}

@@ -60,7 +60,7 @@
 
             <td class="tbl-edit">
               <Modal>
-                <Popup btn="editUser" />
+                <Popup btn="editUser" {user} />
               </Modal>
             </td>
             <td class="tbl-delete">

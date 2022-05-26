@@ -67,6 +67,8 @@ exports.getUser = (req, res) => {
 // Update a one user
 exports.updateUser = (req, res) => {
   const { userId, name, lastName, email, gender } = req.body;
+  console.log("-------------------");
+  console.log(req.body);
 
   userModel
     .findByIdAndUpdate(

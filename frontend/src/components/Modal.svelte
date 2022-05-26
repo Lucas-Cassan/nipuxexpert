@@ -477,13 +477,13 @@
 
   .window {
     position: relative;
-    width: 40rem;
+    width: 30%;
     max-width: 100%;
     max-height: 100%;
     margin: 2rem auto;
     color: black;
-    border-radius: 0.5rem;
-    background: white;
+    background-color: #2a2b3e;
+    border-radius: 15px;
   }
 
   .content {
@@ -491,9 +491,14 @@
     padding: 1rem;
     max-height: calc(100vh - 4rem);
     overflow: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: #a8acbf;
   }
 
   .close {
+    cursor: pointer;
     display: block;
     box-sizing: border-box;
     position: absolute;
@@ -505,10 +510,9 @@
     width: 1.5rem;
     height: 1.5rem;
     border: 0;
-    color: black;
+    color: white;
     border-radius: 1.5rem;
-    background: white;
-    box-shadow: 0 0 0 1px black;
+    background: #557fee;
     transition: transform 0.2s cubic-bezier(0.25, 0.1, 0.25, 1),
       background 0.2s cubic-bezier(0.25, 0.1, 0.25, 1);
     -webkit-appearance: none;
@@ -523,7 +527,7 @@
     top: 50%;
     width: 1rem;
     height: 1px;
-    background: black;
+    background: white;
     transform-origin: center;
     transition: height 0.2s cubic-bezier(0.25, 0.1, 0.25, 1),
       background 0.2s cubic-bezier(0.25, 0.1, 0.25, 1);
@@ -544,7 +548,7 @@
   }
 
   .close:hover {
-    background: black;
+    background: #f46675;
   }
 
   .close:hover:before,
