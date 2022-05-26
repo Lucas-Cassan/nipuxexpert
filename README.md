@@ -4,6 +4,9 @@
 [![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://fr.wikipedia.org/wiki/JavaScript) [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
 
 ---
+J'ai décidé d'utiliser SVELTE pour le projet et ainsi pour découvrir le framework, j'ai bloqué sur certaines choses comme créer un component pour les inputs, j'ai un souci avec une props qui ne passe pas.
+Mais aussi sur la fermeture d'un modal à partir d'un autre component, j'ai donc réactualisé la page après l'ajout d'un utilisateur.
+___
 
 ## **Installation**
 
