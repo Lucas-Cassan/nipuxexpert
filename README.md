@@ -6,7 +6,7 @@
 ---
 ## **Quelques infos**
 
-J'ai décidé d'utiliser SVELTE pour le projet afin de découvrir le framework, cependant j'ai bloqué sur certaines choses comme créer un component pour les inputs(la props dédié au type ne passe pas car le type d'accepte pas les valeurs dynamiques), mais aussi sur la fermeture d'un modal à partir d'un autre component, j'ai donc réactualisé la page après l'ajout d'un utilisateur pour le moment.
+J'ai décidé d'utiliser SVELTE pour le projet afin de découvrir le framework, cependant j'ai bloqué sur certaines choses comme créer un component pour les inputs(la props dédié au type ne passe pas car le type n'accepte pas les valeurs dynamiques). Mais aussi sur la fermeture d'un modal/popup à partir d'un autre component, j'ai donc réactualisé la page après l'ajout d'un utilisateur pour le moment.
 
 Pour l'API j'ai choisi d'utiliser l'API de météo Concept.
 
