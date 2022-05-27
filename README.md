@@ -4,10 +4,14 @@
 [![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://fr.wikipedia.org/wiki/JavaScript) [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
 
 ---
-J'ai décidé d'utiliser SVELTE pour le projet et ainsi pour découvrir le framework, j'ai bloqué sur certaines choses comme créer un component pour les inputs, j'ai un souci avec une props qui ne passe pas.
-Mais aussi sur la fermeture d'un modal à partir d'un autre component, j'ai donc réactualisé la page après l'ajout d'un utilisateur.
-___
+## **Quelques infos**
 
+J'ai décidé d'utiliser SVELTE pour le projet afin de découvrir le framework, cependant j'ai bloqué sur certaines choses comme créer un component pour les inputs(la props dédié au type ne passe pas car le type d'accepte pas les valeurs dynamiques), mais aussi sur la fermeture d'un modal à partir d'un autre component, j'ai donc réactualisé la page après l'ajout d'un utilisateur pour le moment.
+
+Pour l'API j'ai choisi d'utiliser l'API de météo Concept.
+
+Le CRUD est fonctionnel mais la partie d'édition ne fonctionne pas encore, j'ai une erreur qui je devrais ce régler.
+___
 ## **Installation**
 
 *Les fichiers du back-end (.env comprit) sont présents dans ce répo.*
