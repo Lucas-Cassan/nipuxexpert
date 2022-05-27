@@ -67,6 +67,15 @@ body {
 	background-color: #f46675;
 }
 
+.btn:disabled {
+	background-color: #293d74;
+}
+
+.btn:disabled:hover {
+	background-color: #293d74;
+	cursor: not-allowed;
+}
+
 /*	HEADER	*/
 .headerNav {
 	display: flex;
@@ -128,4 +137,11 @@ body {
 	border: 0;
 	border-radius: 5px;
 	outline: none;
+}
+
+.validation-hint {
+	color: red;
+	font-weight: bold;
+	padding: 6px 0;
+	margin-top: 5px;
 }

@@ -1,7 +1,7 @@
 <script>
   import { getContext } from "svelte";
-  import CreateUser from "./CreateUser.svelte";
-  import EditUser from "./EditUser.svelte";
+  import CreateUser from "../CreateUser.svelte";
+  import EditUser from "../EditUser.svelte";
 
   const { open, close } = getContext("simple-modal");
 
@@ -13,13 +13,6 @@
   };
   const showEditUser = (btn, user) => {
     open(EditUser, { user: user });
-  };
-
-  const hideCreateUser = (btn) => {
-    close(CreateUser, {});
-  };
-  const hideEditUser = (btn, user) => {
-    close(EditUser, { user: user });
   };
 </script>
 

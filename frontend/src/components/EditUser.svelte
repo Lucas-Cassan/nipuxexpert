@@ -1,7 +1,16 @@
 <script>
   import axios from "axios";
+  import { emailValidator, requiredValidator } from "./emailVerif/validator";
+  import { createFieldValidator } from "./emailVerif/validation";
+  import { fade } from "svelte/transition";
 
   export let user;
+
+  let email = null;
+  const [validity, validate] = createFieldValidator(
+    requiredValidator(),
+    emailValidator()
+  );
 
   const EditUser = (user) => {
     console.log("Edit user");
@@ -38,7 +47,20 @@
   </div>
   <div class="input">
     <label for="email">E-mail</label>
-    <input name="email" type="email" bind:value={user.email} />
+    <input
+      style="margin-top: 0;"
+      name="email"
+      class="input"
+      type="text"
+      bind:value={user.email}
+      use:validate={user.email}
+    />
+    {#if $validity.dirty && !$validity.valid}
+      <span class="validation-hint" transition:fade>
+        {$validity.message}
+        {$validity.dirty}
+      </span>
+    {/if}
   </div>
   <div class="input">
     <label for="gender">Gender</label>

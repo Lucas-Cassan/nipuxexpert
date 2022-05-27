@@ -2,8 +2,8 @@
   import Header from "./components/Header.svelte";
   import TableUsers from "./components/TableUsers.svelte";
   import CreateUser from "./components/CreateUser.svelte";
-  import Modal from "./components/Modal.svelte";
-  import Popup from "./components/Popup.svelte";
+  import Modal from "./components/popUp/Modal.svelte";
+  import Popup from "./components/popUp/Popup.svelte";
 </script>
 
 <main>

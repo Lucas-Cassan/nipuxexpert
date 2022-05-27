@@ -1,7 +1,14 @@
 <script>
   import axios from "axios";
+  import { emailValidator, requiredValidator } from "./emailVerif/validator";
+  import { createFieldValidator } from "./emailVerif/validation";
+  import { fade } from "svelte/transition";
 
   let user = [];
+  const [validity, validate] = createFieldValidator(
+    requiredValidator(),
+    emailValidator()
+  );
 
   // Create User
   const CreateUser = () => {
@@ -42,7 +49,20 @@
   </div>
   <div class="input">
     <label for="email">E-mail</label>
-    <input name="email" type="text" bind:value={user.email} required />
+    <input
+      style="margin-top: 0;"
+      name="email"
+      class="input"
+      type="text"
+      bind:value={user.email}
+      use:validate={user.email}
+    />
+    {#if $validity.dirty && !$validity.valid}
+      <span class="validation-hint" transition:fade>
+        {$validity.message}
+        {$validity.dirty}
+      </span>
+    {/if}
   </div>
   <div class="input">
     <label for="password">Password</label>
@@ -60,7 +80,9 @@
       <option value="f">women</option>
     </select>
   </div>
+
   <button
+    disabled={!$validity.valid}
     class="btn new"
     on:click|preventDefault={CreateUser(user)}
     type="submit">Create user</button

@@ -2,8 +2,8 @@
   import { onMount } from "svelte";
   import axios from "axios";
   import { fade } from "svelte/transition";
-  import Modal from "./Modal.svelte";
-  import Popup from "./Popup.svelte";
+  import Modal from "./popUp/Modal.svelte";
+  import Popup from "./popUp/Popup.svelte";
 
   //Get all users
   let users;
@@ -12,6 +12,7 @@
       .then((r) => r.json())
       .then((data) => {
         users = data;
+        console.log(users);
       });
   });
 

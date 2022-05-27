@@ -1,9 +1,11 @@
 <script>
+  import Weather from "./Weather.svelte";
 </script>
 
 <div id="headerNav">
   <div class="headerNav">
     <h1 class="title">NIP UX EXPERTS</h1>
+    <Weather />
   </div>
   <div class="headerNav">
     <a class="link gold" href="#"><i class="fa-solid fa-bell" /></a>
