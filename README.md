@@ -23,7 +23,7 @@ ___
 * Ouvrir un terminal et se déplacer dans le dossier frontend, exécutez`npm install`.  
 * Ouvrir un autre terminal et se déplacer dans le dossier backend, exécutez `npm install`.  
 
-* Dans votre terminal frontend, executez `npm start`.  
+* Dans votre terminal frontend, executez `npm run dev`.  
 * Dans votre terminal backend, executez `npm start`.  
 
 ---
